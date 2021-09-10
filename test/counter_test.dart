@@ -14,13 +14,5 @@ void main() {
 
       expect(counter.value, 1);
     });
-
-    test('value should be decremented', () {
-      final counter = Counter();
-
-      counter.decrement();
-
-      expect(counter.value, -1);
-    });
   });
 }
